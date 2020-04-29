@@ -40,6 +40,18 @@ header {
   margin-top: 3px;
 }
 
+.menu-icon {
+  color: white;
+  float : right;
+  font-size: 17px;
+  padding: 21px 21px;
+  display : none;
+}
+
+.menu-icon:active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 .header-right {
   float: right;
   margin-right: -25px;
@@ -105,16 +117,35 @@ header {
   font-weight: normal;
 }
 
+.message {
+  padding: 15px 70px;
+  background-color: #F54141;
+  cursor: pointer;
+  box-shadow: 5px 7px #8A1616;
+  font-size: 16px;
+}
+
+.members {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: auto;
+}
+
 .member {
   float: left;
-  width: 23%;
-  background-color: rgb(229, 152, 102);
-  border-radius: 25px;
-  margin-right: 2%;
+  width: 25%;
+  margin: auto;
+  
 }
 
 .member-layout {
   padding: 25px;
+  width: 90%;
+  height: 350px;
+  border-radius: 25px;
+  background-color: rgb(229, 152, 102);
+  margin: auto;
 }
 
 .member-avatar {
@@ -157,11 +188,11 @@ header {
   background-color: #EDBB99;
 }
 
-.message {
+.message {                /*-----*/
   padding: 15px 70px;
   background-color: #F54141;
   cursor: pointer;
-  box-shadow: 0 7px #8A1616;
+  box-shadow: 5px 7px #8A1616;
   font-size: 16px;
 }
 
