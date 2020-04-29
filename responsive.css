@@ -1,5 +1,15 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+
+  .member {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .member-layout {
+    height: 310px;
+  }
+
   .lesson {
     width: 50%;
     margin-bottom: 50px;
@@ -16,6 +26,11 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+  .member {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
   .lesson {
     width: 100%;
   }
@@ -36,12 +51,14 @@
     text-align: left;
   }
   
-  /* Tambahkan CSS untuk header-right */
+  .header-left {
+    width : 100%;
+  }
+
   .header-right {
     display: none;
   }
   
-  /* Tambahkan CSS untuk menu-icon */
   .menu-icon {
     display: block;
   }
